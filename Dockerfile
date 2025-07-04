@@ -19,6 +19,6 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     libmcrypt-dev \
     default-mysql-client \
-    && docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath gd zip
+    && docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath gd zip sockets
 
 WORKDIR /var/www
