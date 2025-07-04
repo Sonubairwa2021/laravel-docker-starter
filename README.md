@@ -36,8 +36,12 @@ laravel-docker-starter/
 
 ### 1. Clone or download the project
 
-git clone https://github.com/sohan/laravel-docker-starter.git
+```bash
+git clone https://github.com/Sonubairwa2021/laravel-docker-starter.git
+```
+```bash
 cd laravel-docker-starter
+```
 
 ---
 
